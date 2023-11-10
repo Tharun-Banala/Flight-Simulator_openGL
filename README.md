@@ -1,4 +1,4 @@
-**INTRODUCTION
+#INTRODUCTION
 
 A third-person flight simulator is a kind of simulation game that enables users to control a plane and
 experience flying from a third-person viewpoint. The camera in this kind of simulator is positioned
