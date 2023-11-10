@@ -1,4 +1,5 @@
-INTRODUCTION
+**INTRODUCTION
+
 A third-person flight simulator is a kind of simulation game that enables users to control a plane and
 experience flying from a third-person viewpoint. The camera in this kind of simulator is positioned
 above or behind the aircraft, giving users a wider view of their surroundings and the movements of
@@ -8,8 +9,9 @@ planes to commercial airliners and military jets, and can be played on a variety
 personal computers and gaming consoles. These simulators can be used for pilot instruction and
 aviation research in addition to being frequently employed for entertainment reasons.
 
-SPECIFICATIONS
-Libraries Required:
+**SPECIFICATIONS
+
+**Libraries Required:
 1)bits/stdc++.h
 2)GL/glut.h
 3)glew.h
