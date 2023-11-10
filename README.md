@@ -9,64 +9,47 @@ planes to commercial airliners and military jets, and can be played on a variety
 personal computers and gaming consoles. These simulators can be used for pilot instruction and
 aviation research in addition to being frequently employed for entertainment reasons.
 
-**SPECIFICATIONS
 
-**Libraries Required:
-1)bits/stdc++.h
-2)GL/glut.h
-3)glew.h
-4)chrono
-5)cstdint
-6)SFML/Window.hpp
-7)glm/gtx/transform.hpp
-8)iostream
-9)glm/glm.hpp
-10)glm/vec3.hpp
-11)glm/mat4x4.hpp
-12)string
-13)fstream
-14)functional
-15)vector
-16)unordered_map
-17)map
-18)glm/gtc/matrix_tranform.hpp
-19)glm/gtx/euler_angles.hpp
-20)cmath
-21)algorithm
-22)numeric
-23)glm/vec4.hpp
-24)cmath
-25)SFML/Window/Mouse.hpp
-26) SFML/Window/Event.hpp
-27) SFML/Window/Keyboard.hpp
-28)utility
-29)glm/geometric.hpp
-30)glm/gtx/rotate_vector.hpp
-
-How to run the project ?
+How to run the project?
 You need the following versions :
 • SFML 2.1+ development headers and library
 • C++11 compliant compiler
 • CMake 3.11+
 • GLEW
 Once the above dependencies have been downloaded ,open the source directory and run cmake
+
 $ cd Fly
+
 $ mkdir build
+
 $ cd build
+
 $ cmake .. (if didn’t work then cmake .)
+
 $ make -j4
+
 $ ./Fly
 
 Details of Key Controls:
+
 • W /UpArrow: Elevator Down
+
 • S /DownArrow: Elevator Up
+
 • A /LeftArrow: AntiClock wise Torque
+
 • D /RightArrow: Clockwise Torque
+
 • Space : Thrust Up
+
 • LShift: Thrust Down
+
 • K : Speed Up
+
 • L;Speed Down
+
 • MouseLeftCLick : Camera Angle Rotation
+
 • Mouse Scroll : Scaling
 
 FUNCTIONALITES IMPLEMENTED
